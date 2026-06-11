@@ -1,8 +1,12 @@
+import Mainn from "./Mainn";
 import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    <Navbar/>           
+    <>
+      <Navbar />
+      <Mainn />
+    </>       
   )
 };
 
