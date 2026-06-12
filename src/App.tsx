@@ -1,13 +1,17 @@
-import Mainn from "./Mainn";
+import Cart from "./Cart";
+import Mainn from "./Cart";
 import Navbar from "./Navbar";
+import Grid from "./Grid";
+import Visa from "./Visa";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Mainn />
-    </>       
-  )
+      <Cart />
+      <Grid />
+    </>
+  );
 };
 
 export default App;

@@ -21,6 +21,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.navbar img {
+  cursor: pointer;
+}
 .logFlex {
   display: flex;
   align-items: center;
@@ -149,7 +152,7 @@ header {
   height: 300px;
   background-color: #ffffff;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .cartBox img {
   width: 200px;
@@ -185,6 +188,254 @@ header {
   transition: all 0.3s;
 }
 .cartBox button:hover {
+  background-color: #e5eaf0;
+  color: #202020;
+}
+.grid {
+  margin-top: 40px;
+}
+.text {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+}
+.div1 {
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  width: 470px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.div2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  width: 400px;
+  height: 280px;
+  background-color: #ffffff;
+  margin-left: -139px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.div3 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 6;
+  width: 400px;
+  height: 280px;
+  background-color: #ffffff;
+  margin-left: -90px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.div4 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-row-start: 4;
+  width: 400px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.div5 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 4;
+  width: 400px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.div6 {
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  grid-row-start: 4;
+  width: 470px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.parent h4 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  margin-top: 30px;
+  margin-left: 25px;
+  position: relative;
+}
+.parent p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+  color: rgb(124, 133, 141);
+  margin-top: 10px;
+  margin-left: 25px;
+  position: relative;
+}
+.parent button {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1cca59;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.parent button:hover {
+  background-color: #e5eaf0;
+  color: #202020;
+}
+.parent img {
+  position: absolute;
+  width: 240px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.parenT {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.div7 {
+  grid-column: span 3 / span 3;
+  grid-row: span 6 / span 6;
+  height: 330px;
+  width: 600px;
+  border-radius: 20px;
+  background-image: url("https://hamkorbank.uz/assets/images-cache/about_bank_card_xl.27cebd81.webP");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.div8 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.div9 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 6;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.div10 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  grid-row-start: 4;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.div11 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 6;
+  grid-row-start: 4;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.div8 i {
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 25px;
+  padding-top: 20px;
+}
+.div8 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #202020;
+  margin-top: 14px;
+  margin-left: 25px;
+  position: relative;
+}
+.div8 p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+  color: rgb(124, 133, 141);
+  margin-top: 7px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.div7 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.div7 p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.div7 button {
+  position: absolute;
+  bottom: 30px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1cca59;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 25px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.div7 button:hover {
   background-color: #e5eaf0;
   color: #202020;
 }

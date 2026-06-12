@@ -48,7 +48,8 @@ let data = [
     btn: "Rasmilashtirish",
   },
 ];
-const Mainn = () => {
+
+const Cart = () => {
   return (
     <>
       <div className="swpier container">
@@ -70,4 +71,4 @@ const Mainn = () => {
   );
 };
 
-export default Mainn;
+export default Cart;
