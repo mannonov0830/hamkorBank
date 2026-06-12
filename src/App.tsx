@@ -1,8 +1,8 @@
 import Cart from "./Cart";
-import Mainn from "./Cart";
 import Navbar from "./Navbar";
 import Grid from "./Grid";
 import Visa from "./Visa";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -10,6 +10,8 @@ const App = () => {
       <Navbar />
       <Cart />
       <Grid />
+      <Visa />
+      <Footer />
     </>
   );
 };
