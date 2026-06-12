@@ -576,3 +576,190 @@ header {
   background-color: #e5eaf0;
   color: #202020;
 }
+
+/* Umumiy Footer stillari */
+.bank-footer {
+  background-color: #e9ecf2; /* Orqa fon rangi */
+  color: #333333;
+  padding: 40px 60px 30px 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+/* Telefonlar qismi */
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phone-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202020;
+  font-family: "Montserrat", sans-serif;
+}
+
+.phone-label {
+  font-size: 14px;
+  color: rgb(124, 133, 141);
+  margin-top: 4px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Linklar ro'yxati */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 15px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333d4d;
+  font-size: 16px;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #1CCA59;
+}
+
+/* Mobil bank qismi */
+.mobile-bank-column {
+  display: flex;
+  /* justify-content: flex-end; */
+  margin-top: -65px;
+}
+
+.mobile-bank-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: transparent;
+}
+
+.bank-logo-wrapper {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bank-logo img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.mobile-bank-text h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #202020;
+  font-family: "Golos Text", sans-serif;
+}
+
+.mobile-bank-text p {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: rgb(124, 133, 141);
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #d4daf0;
+  margin: 30px 0 20px 0;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.corruption-btn {
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1cca59;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.corruption-btn:hover {
+  background-color: #e5eaf0;
+  color: #202020;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.social-link {
+  color: #5c677d;
+  font-size: 25px;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.social-link:hover {
+  color: #1cca59;
+}
+
+/* Mobil qurilmalar uchun moslashuvchanlik (Responsive) */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .mobile-bank-column {
+    justify-content: flex-start;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+a {
+  text-decoration: none;
+}
