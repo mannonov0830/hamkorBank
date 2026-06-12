@@ -644,7 +644,7 @@ header {
 }
 
 .footer-column ul li a:hover {
-  color: #1CCA59;
+  color: #1cca59;
 }
 
 /* Mobil bank qismi */
@@ -699,7 +699,6 @@ header {
   border-top: 1px solid #d4daf0;
   margin: 30px 0 20px 0;
 }
-
 
 .footer-bottom {
   display: flex;
