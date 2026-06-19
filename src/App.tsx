@@ -41,10 +41,8 @@ const App = () => {
       </div>
     );
   }
-
   return (
     <>
-      
       {showMessage && (
         <div className="toast">
           ✅ Siz yana onlaynsiz
